@@ -1,5 +1,5 @@
 {
-  "name": "@dsh-community/dsh-chat-aggregator",
+  "name": "@jake26602/dsh-chat-aggregator",
   "version": "0.1.0",
   "description": "Multi-platform chat aggregator plugin for DeepSeek Harness — unify WeChat, DingTalk, Telegram, Discord, Slack into one DSH agent session",
   "type": "module",
