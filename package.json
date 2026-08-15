@@ -1,10 +1,12 @@
 {
   "name": "@jake26602/dsh-chat-aggregator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Multi-platform chat aggregator plugin for DeepSeek Harness — unify WeChat, DingTalk, Telegram, Discord, Slack into one DSH agent session",
   "type": "module",
   "main": "lib/index.js",
-  "bin": "./scripts/cli.mjs",
+  "bin": {
+    "dsh-chat-aggregator": "./bin/dsh-chat-aggregator.js"
+  },
   "exports": {
     ".": "./lib/index.js",
     "./lib/*": "./lib/*.js",
@@ -12,6 +14,7 @@
     "./package.json": "./package.json"
   },
   "files": [
+    "bin",
     "lib",
     "stubs",
     "scripts",
